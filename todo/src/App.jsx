@@ -8,11 +8,8 @@ export default function App() {
           <span className="text-xl font-bold">
             Welcome To My Assessment Exam!!
           </span>
-          <p>Use the links below to navigate to Landing Page and ToDo App</p>
+          <p>Use the links below to navigate to ToDo App</p>
           <ul className="pt-5 font-semibold underline list-disc">
-            <li className="hover:text-blue-500">
-              <Link to="/landingpage">Go to Landing Page</Link>
-            </li>
             <li className="hover:text-blue-500">
               <Link to="/todo">Go to ToDo App</Link>
             </li>
