@@ -27,6 +27,7 @@ export default function Todo() {
     }
   };
 
+  // Function that will change task to complete
   const toggleTaskCompleted = (index) => {
     const updatedTasks = tasks.map((task, i) =>
       i === index ? { ...task, completed: !task.completed } : task
@@ -34,6 +35,7 @@ export default function Todo() {
     setTasks(updatedTasks);
   };
 
+  // Edit task
   const handleTaskEdit = (index, newText) => {
     const updatedTasks = tasks.map((task, i) =>
       i === index ? { ...task, taskname: newText } : task
@@ -41,6 +43,7 @@ export default function Todo() {
     setTasks(updatedTasks);
   };
 
+  // Delete Task
   const deleteTask = (index) => {
     const updatedTasks = tasks.filter((_, i) => i !== index);
     setTasks(updatedTasks);
