@@ -2,6 +2,7 @@ import { useState } from "react";
 import Nav from "./components/Nav";
 import ProductCard from "./components/ProductCard";
 import Hero from "./components/hero";
+import ContactsForm from "./components/ContactsForm";
 
 function App() {
   const [isTruncated, setIsTruncated] = useState(true);
@@ -61,7 +62,9 @@ function App() {
             </p>
           </div>
         </section>
-
+        <section className="bg-gray-700">
+          <ContactsForm />
+        </section>
       </main>
     </>
   );
