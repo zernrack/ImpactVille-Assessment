@@ -1,7 +1,7 @@
 function Nav() {
   return (
     <>
-      <nav className="flex flex-col w-full px-6 py-4 font-sans text-center shadow dark:bg-gray-800 sm:flex-row sm:text-left sm:justify-between sm:items-baseline">
+      <nav className="flex flex-col w-full px-6 py-4 font-sans text-center bg-gray-800 shadow dark:bg-gray-800 sm:flex-row sm:text-left sm:justify-between sm:items-baseline">
         <div className="mb-2 sm:mb-0">
           <a
             href="#"

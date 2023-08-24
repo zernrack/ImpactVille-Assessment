@@ -2,10 +2,10 @@ export default function ContactsForm() {
   return (
     <>
       <div className="max-w-screen-md px-4 py-8 mx-auto lg:py-16">
-        <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-center text-gray-900 dark:text-white">
+        <h2 className="mb-4 text-4xl font-extrabold tracking-tight text-center text-white dark:text-white">
           Contact Us
         </h2>
-        <p className="mb-8 font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">
+        <p className="mb-8 font-light text-center text-white lg:mb-16 dark:text-gray-400 sm:text-xl">
           Got a technical issue? Want to send feedback about a beta feature?
           Need details about our Business plan? Let us know.
         </p>
@@ -13,7 +13,7 @@ export default function ContactsForm() {
           <div>
             <label
               htmlFor="email"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              className="block mb-2 text-sm font-medium text-white dark:text-gray-300"
             >
               Your email
             </label>
@@ -28,7 +28,7 @@ export default function ContactsForm() {
           <div>
             <label
               htmlFor="subject"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              className="block mb-2 text-sm font-medium text-white dark:text-gray-300"
             >
               Subject
             </label>
@@ -43,7 +43,7 @@ export default function ContactsForm() {
           <div className="sm:col-span-2">
             <label
               htmlFor="message"
-              className="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+              className="block mb-2 text-sm font-medium text-white dark:text-gray-400"
             >
               Your message
             </label>
