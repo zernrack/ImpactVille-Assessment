@@ -62,7 +62,7 @@ function App() {
             </p>
           </div>
         </section>
-        <section className="bg-gray-700">
+        <section className="bg-gray-700" id="contact">
           <ContactsForm />
         </section>
       </main>
