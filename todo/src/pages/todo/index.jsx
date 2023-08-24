@@ -80,7 +80,7 @@ export default function Todo() {
                   <td>
                     <div
                       className={`text-black ${
-                        task.completed ? "line-through" : ""
+                        task.completed ? "line-through text-red-800" : ""
                       }`}
                       contentEditable={!task.completed}
                       onBlur={(e) =>
