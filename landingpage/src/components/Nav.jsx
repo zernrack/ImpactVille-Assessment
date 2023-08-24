@@ -21,13 +21,19 @@ function Nav() {
             href="#"
             className="ml-2 text-lg font-semibold text-white no-underline hover:text-blue-dark hover:underline"
           >
+            Products
+          </a>
+          <a
+            href="#about"
+            className="ml-2 text-lg font-semibold text-white no-underline hover:text-blue-dark hover:underline"
+          >
             About
           </a>
           <a
-            href="#"
+            href="#contact"
             className="ml-2 text-lg font-semibold text-white no-underline hover:text-blue-dark hover:underline"
           >
-            Products
+            Contact Us
           </a>
         </div>
       </nav>
