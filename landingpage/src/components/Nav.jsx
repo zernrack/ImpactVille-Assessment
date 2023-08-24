@@ -18,7 +18,7 @@ function Nav() {
             Home
           </a>
           <a
-            href="#"
+            href="#products"
             className="ml-2 text-lg font-semibold text-white no-underline hover:text-blue-dark hover:underline"
           >
             Products
